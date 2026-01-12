@@ -10,6 +10,9 @@
 .history
 .svn/
 .swiftpm/
+.android/local.properties
+.ios/Flutter/flutter_export_environment.sh
+.ios/Pods/
 migrate_working_dir/
 
 # IntelliJ related
@@ -43,3 +46,14 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Android related
+android/.gradle/
+android/local.properties
+
+# iOS related
+ios/Flutter/flutter_export_environment.sh
+ios/Pods/
+
+# Ensure build is ignored
+build/
